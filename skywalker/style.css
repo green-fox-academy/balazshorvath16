@@ -1,0 +1,27 @@
+header {
+    background-image: url(anakin.png);
+    width: 85%;
+    margin: 0 auto;
+    background-size: contain;
+    height: 400px;
+    background-repeat: no-repeat;
+    text-align: center;
+    vertical-align: text-bottom;
+ }
+
+ blockquote {
+     
+     background-color: black;
+     color: white;
+     font-size: 60px;
+     padding: 30px;
+     margin: 0 20%;
+     
+     
+ }
+
+ body {
+     line-height: 1.2;
+ }
+
+ 

@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class vegreelkezdem {
     public static void main(String[] args) {
 
@@ -63,8 +65,12 @@ public class vegreelkezdem {
 
         boolean imMarried = false;
 
-        System.out.println(!true);
-        System.out.println(!false);
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Am i married?:");
+        int first = in.nextInt();
+
+
 
 
 

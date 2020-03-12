@@ -221,28 +221,19 @@ public class main {
 // and for the multiples of five print “Buzz”.
 // For numbers which are multiples of both three and five print “FizzBuzz”.
 
+/*
+        for (int i = 1; i < 101; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.println("FizzBuzz");
+            } else if (i % 3 == 0) {
+                System.out.println("Fizz");
+            } else if (i % 5 == 0) {
+                System.out.println("Buzz");
+            } else {
+                System.out.println(i);
+            }
 
-        a = 0;
-        while (0 < 100)
-        {
-            System.out.println(a);
-            a += 1;
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
         // Write a program that reads a number from the standard input, then draws a
 // triangle like this:
 //
@@ -252,6 +243,18 @@ public class main {
 // ****
 //
 // The triangle should have as many lines as the number was
+
+      /*  Scanner input = new Scanner(System.in);
+        System.out.println("Add a number: ");
+        int number = input.nextInt();
+        String k = "";
+
+        for (int i = 1; i <= number; i++){
+            k += "*";
+            System.out.println(k);
+        }
+
+*/
 
 
 
@@ -275,10 +278,28 @@ public class main {
 //  % % % %
 //
 
+        System.out.println("Add a number: ");
+        Scanner input = new Scanner(System.in);
+        int number = input.nextInt();
+
+        for (int i=1; i<=number/2; i++){
+            for (int j=0; j<number/2; j++) {
+                System.out.print("% ");
+            }
+            System.out.print("\n");
+            for (int k=0; k<number/2; k++) {
+                System.out.print(" %");
+            }
+            System.out.print("\n");
 
 
+        }
     }
 }
+
+
+
+
 
 
 

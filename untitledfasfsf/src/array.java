@@ -1,6 +1,8 @@
 import sweets.string;
 
+import javax.swing.*;
 import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class array {
     public static void main(String[] args) {
@@ -143,12 +145,30 @@ public class array {
 // - In `colors[2]` store the shades of pink:
 //   `"orchid", "violet", "pink", "hot pink"`
 
+        String[][] colors = {
+                {"lime", "forest green", "olive", "pale green", "spring green"},
+                {"orange red", "red", "tomato"},
+                {"orchid", "violet", "pink", "hot pink"}
+        };
 
 
 
+        // - Create an array variable named `animals`
+//   with the following content: `["koal", "pand", "zebr"]`
+// - Add all elements an `"a"` at the end
+
+
+       String[] animals = {"koal", "pand", "zebr"};
+
+       /* System.out.println(animals[0] + "a");
+        System.out.println(animals[1] + "a");
+        System.out.println(animals[2] + "a"); */
 
 
 
+        for (int i = 0; i < animals.length; i++) {
+           animals[i]= animals[i].concat("a");
+            System.out.println(animals[i]);
 
         }
 
@@ -157,8 +177,92 @@ public class array {
 
 
 
+        // - Create an array variable named `orders`
+//   with the following content: `["first", "second", "third"]`
+// - Swap the first and the third element of `orders`
+
+
+      /*  String[] orders = {"first", "second", "third"};
+        String ord = "";
+        for (int i = 0; i < orders.length; i++) {
+
+            ord= orders[0];
+            orders[0] = orders[2];
+            orders[2] = ord;
+        }
+        System.out.println(Arrays.toString(orders));
+
+*/
+        // - Create an array variable named `numbers`
+//   with the following content: `[3, 4, 5, 6, 7]`
+// - Print the sum of the elements in `numbers`
+
+
+        int[] nums = {3, 4, 5, 6, 7};
+        int sum = 0;
+        for (int i = 0; i < nums.length; i++) {
+            sum = sum + nums[i];
+            System.out.println(sum);
+
+        }
+        // - Create an array variable named `numbers`
+//   with the following content: `[3, 4, 5, 6, 7]`
+// - Reverse the order of the elements in `numbers`
+// - Print the elements of the reversed `numbers`
+
+
+        int[] orders = {3, 4, 5, 6, 7};
+        int[] arr = new int[orders.length];
+        int counter = 0;
+
+        System.out.println("########");
+
+        for (int i = orders.length - 1; i >= 0; i--) {
+            arr[counter] = orders[i];
+            System.out.println(orders[i]);
+            counter++;
+        }
+
+
 
     }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

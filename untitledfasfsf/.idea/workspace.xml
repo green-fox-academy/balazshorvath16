@@ -25,6 +25,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -32,43 +33,37 @@
       <recent name="sweets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.main">
-    <configuration name="array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array" />
+  <component name="RunManager" selected="Application.Urlfixer">
+    <configuration name="AppendA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppendA" />
       <module name="untitledfasfsf" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jkfpoawjgpoewngnew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jkfpoawjgpoewngnew" />
+    <configuration name="Factorio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Factorio" />
       <module name="untitledfasfsf" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
+    <configuration name="Simplereplace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Simplereplace" />
       <module name="untitledfasfsf" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sweets.string" />
+    <configuration name="Summing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Summing" />
       <module name="untitledfasfsf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sweets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="utolso" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utolso" />
+    <configuration name="Urlfixer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Urlfixer" />
       <module name="untitledfasfsf" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,13 +71,16 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.array" />
-        <item itemvalue="Application.string" />
-        <item itemvalue="Application.utolso" />
-        <item itemvalue="Application.jkfpoawjgpoewngnew" />
+        <item itemvalue="Application.Urlfixer" />
+        <item itemvalue="Application.Simplereplace" />
+        <item itemvalue="Application.Factorio" />
+        <item itemvalue="Application.Summing" />
+        <item itemvalue="Application.AppendA" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS,SHOW_NON_PUBLIC,VISIBILITY_SORTER" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -98,7 +96,7 @@
       <workItem from="1583417006360" duration="28001000" />
       <workItem from="1583617629271" duration="4838000" />
       <workItem from="1583742244068" duration="23420000" />
-      <workItem from="1583838210275" duration="5055000" />
+      <workItem from="1583838210275" duration="24163000" />
     </task>
     <servers />
   </component>
@@ -110,38 +108,46 @@
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state x="396" y="103" key="#Unnamed/0.23.1440.831@0.23.1440.831" timestamp="1583488034546" />
-    <state width="1398" height="141" key="GridCell.Tab.0.bottom" timestamp="1583847567738">
+    <state x="477" y="316" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583850644031">
       <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="477" y="316" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.831@0.23.1440.831" timestamp="1583850644031" />
+    <state width="1398" height="141" key="GridCell.Tab.0.bottom" timestamp="1583942897332">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state width="1398" height="243" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583418624638" />
     <state width="1398" height="323" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1583832804988" />
     <state width="1358" height="200" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1583415079734" />
     <state width="697" height="107" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1583421174934" />
-    <state width="1398" height="141" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1583847567738" />
-    <state width="1398" height="141" key="GridCell.Tab.0.center" timestamp="1583847567737">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state width="1398" height="141" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1583935579949" />
+    <state width="1398" height="141" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1583942897332" />
+    <state width="1398" height="141" key="GridCell.Tab.0.center" timestamp="1583942897331">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state width="1398" height="243" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583418624637" />
     <state width="1398" height="323" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1583832804987" />
     <state width="1358" height="200" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1583415079733" />
     <state width="697" height="107" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1583421174933" />
-    <state width="1398" height="141" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1583847567737" />
-    <state width="1398" height="141" key="GridCell.Tab.0.left" timestamp="1583847567736">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state width="1398" height="141" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1583935579945" />
+    <state width="1398" height="141" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1583942897331" />
+    <state width="1398" height="141" key="GridCell.Tab.0.left" timestamp="1583942897329">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state width="1398" height="243" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583418624636" />
     <state width="1398" height="323" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1583832804985" />
     <state width="1358" height="200" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1583415079732" />
     <state width="697" height="107" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1583421174932" />
-    <state width="1398" height="141" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1583847567736" />
-    <state width="1398" height="141" key="GridCell.Tab.0.right" timestamp="1583847567738">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state width="1398" height="141" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1583935579943" />
+    <state width="1398" height="141" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1583942897329" />
+    <state width="1398" height="141" key="GridCell.Tab.0.right" timestamp="1583942897332">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state width="1398" height="243" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583418624637" />
     <state width="1398" height="323" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1583832804987" />
     <state width="1358" height="200" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1583415079734" />
     <state width="697" height="107" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1583421174933" />
-    <state width="1398" height="141" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1583847567738" />
+    <state width="1398" height="141" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1583935579947" />
+    <state width="1398" height="141" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1583942897332" />
     <state x="221" y="105" key="SettingsEditor" timestamp="1583767562663">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
@@ -164,10 +170,14 @@
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.23.1440.831@0.23.1440.831" timestamp="1583511337485" />
-    <state x="385" y="176" width="670" height="158" key="search.everywhere.popup" timestamp="1583615909937">
+    <state x="426" y="52" key="refactoring.ChangeSignatureDialog" timestamp="1583942705246">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="426" y="52" key="refactoring.ChangeSignatureDialog/0.23.1440.832@0.23.1440.832" timestamp="1583942705246" />
+    <state x="385" y="176" width="670" height="158" key="search.everywhere.popup" timestamp="1583854046291">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state x="385" y="176" key="search.everywhere.popup/0.23.1440.829@0.23.1440.829" timestamp="1583409096034" />
-    <state x="385" y="176" width="670" height="158" key="search.everywhere.popup/0.23.1440.831@0.23.1440.831" timestamp="1583615909937" />
+    <state x="385" y="176" width="670" height="158" key="search.everywhere.popup/0.23.1440.831@0.23.1440.831" timestamp="1583854046291" />
   </component>
 </project>

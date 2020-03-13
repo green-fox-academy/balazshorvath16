@@ -12,11 +12,7 @@ public class Factorio {
 
         System.out.println(fact(a));
 
-// fact 1  i 1  = 1
-        // fact 2  i  = 2
-        // fact 3  i  = 6
-        // fact 4  i  = 24
-        // fact 5  i  = 120
+
     }
     public static int fact (int factorialOfInt){
         int factorio = 1;

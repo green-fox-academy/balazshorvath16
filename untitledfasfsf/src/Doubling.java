@@ -6,10 +6,14 @@ public class Doubling {
 
     public static void main(String[] args) {
 
+        ;
+
 /*
         addThem(1, 2);
         System.out.println("Global" + myPI);
     }
+
+
 
     public static int addThem(int a, int b) {
         double smallPI = 3.14;
@@ -18,17 +22,15 @@ public class Doubling {
         System.out.println("Local" + myPI);
         return 1;
 */
-        int [] baseNum = {123};
+        int baseNum = 123;    // use [] only at Array int
 
-        doublingArray(baseNum);
+        int result = doublingArray(baseNum);
 
     }
 
-    public static void doublingArray (int [] intArray){
-        for (int i = 0; i < intArray.length; i++) {
-            intArray[i] *=2;
-        }
-        System.out.println(Arrays.toString(intArray));
+    public static int doublingArray (int intArray){    // if its not returning i use void
+        return intArray * 2;
+
     }
 
 }

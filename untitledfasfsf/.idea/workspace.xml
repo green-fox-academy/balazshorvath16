@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44cd7ab1-9966-4bb9-9189-5b7835b365e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitledfasfsf/Doubling.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitledfasfsf/Doubling.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitledfasfsf/Factorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitledfasfsf/Factorio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitledfasfsf/vegreelkezdem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitledfasfsf/vegreelkezdem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Doubling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Doubling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Urlfixer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Urlfixer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +40,9 @@
       <recent name="sweets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TodoPrint">
-    <configuration name="Factorio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Factorio" />
+  <component name="RunManager" selected="Application.Reverse">
+    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reverse" />
       <module name="untitledfasfsf" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,11 +78,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Reverse" />
         <item itemvalue="Application.TodoPrint" />
         <item itemvalue="Application.Urlfixer" />
         <item itemvalue="Application.Simplereplace" />
         <item itemvalue="Application.gyakorlas" />
-        <item itemvalue="Application.Factorio" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +104,7 @@
       <workItem from="1583617629271" duration="4838000" />
       <workItem from="1583742244068" duration="23420000" />
       <workItem from="1583838210275" duration="38153000" />
-      <workItem from="1584092139885" duration="4330000" />
+      <workItem from="1584092139885" duration="6816000" />
     </task>
     <servers />
   </component>
@@ -127,41 +120,41 @@
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state x="477" y="316" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.831@0.23.1440.831" timestamp="1583850644031" />
-    <state width="1398" height="141" key="GridCell.Tab.0.bottom" timestamp="1584097807083">
+    <state width="1398" height="141" key="GridCell.Tab.0.bottom" timestamp="1584100574593">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state width="1398" height="243" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583418624638" />
     <state width="1398" height="323" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1583832804988" />
     <state width="1358" height="200" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1583415079734" />
     <state width="697" height="107" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1583421174934" />
-    <state width="1398" height="141" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1584097807083" />
+    <state width="1398" height="141" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1584100574593" />
     <state width="1398" height="141" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1583942897332" />
-    <state width="1398" height="141" key="GridCell.Tab.0.center" timestamp="1584097807082">
+    <state width="1398" height="141" key="GridCell.Tab.0.center" timestamp="1584100574592">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state width="1398" height="243" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583418624637" />
     <state width="1398" height="323" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1583832804987" />
     <state width="1358" height="200" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1583415079733" />
     <state width="697" height="107" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1583421174933" />
-    <state width="1398" height="141" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1584097807082" />
+    <state width="1398" height="141" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1584100574592" />
     <state width="1398" height="141" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1583942897331" />
-    <state width="1398" height="141" key="GridCell.Tab.0.left" timestamp="1584097807082">
+    <state width="1398" height="141" key="GridCell.Tab.0.left" timestamp="1584100574590">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state width="1398" height="243" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583418624636" />
     <state width="1398" height="323" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1583832804985" />
     <state width="1358" height="200" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1583415079732" />
     <state width="697" height="107" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1583421174932" />
-    <state width="1398" height="141" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1584097807082" />
+    <state width="1398" height="141" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1584100574590" />
     <state width="1398" height="141" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1583942897329" />
-    <state width="1398" height="141" key="GridCell.Tab.0.right" timestamp="1584097807083">
+    <state width="1398" height="141" key="GridCell.Tab.0.right" timestamp="1584100574592">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state width="1398" height="243" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583418624637" />
     <state width="1398" height="323" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1583832804987" />
     <state width="1358" height="200" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1583415079734" />
     <state width="697" height="107" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1583421174933" />
-    <state width="1398" height="141" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1584097807083" />
+    <state width="1398" height="141" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1584100574592" />
     <state width="1398" height="141" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1583942897332" />
     <state x="221" y="105" key="SettingsEditor" timestamp="1583767562663">
       <screen x="0" y="23" width="1440" height="831" />

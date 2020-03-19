@@ -1,4 +1,4 @@
-package Week3.Day2.pokemon;
+    package Week3.Day2.pokemon;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,6 +18,11 @@ public class Main {
         // Which pokemon should Ash use?
 
         System.out.print("I choose you, ");
+
+        for (int i = 0; i < pokemonOfAsh.size(); i++) {
+            if (pokemonOfAsh.get(i).isEffectiveAgainst(wildPokemon)) {
+                System.out.println(pokemonOfAsh.get(i).getName());
+                break;
     }
 
     private static List<Pokemon> initializePokemons() {

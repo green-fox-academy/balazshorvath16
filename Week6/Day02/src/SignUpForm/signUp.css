@@ -1,0 +1,95 @@
+html {
+  font-family: "Arial", Serif, serif;
+  background-color: #EBEBEB;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+  background-color: #F2F2F2;
+  font-size: 16px;
+}
+
+form{
+  width: 300px;
+}
+h1{
+  text-transform: uppercase;
+  font-size: 26px;
+  letter-spacing: 0.1em;
+}
+
+input{
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  border:none;
+  border-bottom: 1px solid #F2F2F2;
+  background-image:none;
+  background-color:transparent;
+  box-shadow: none;
+  padding: 10px 0 10px 20px;
+}
+input:focus {
+  border-bottom: 2px solid #1BA67E;
+  outline: none;
+}
+
+button {
+  margin-top: 30px;
+  background-color: #1BA67E;
+  border: none;
+  border-radius: 2px;
+  color: #FFFFFF;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.centerflex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.flexcontainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  background-color: #FFFFFF;
+  width: 50%;
+  padding: 50px 75px 50px;
+  margin: 100px 0px 100px;
+}
+
+.or p {
+  padding: 10px;
+  background-color: #DDDDDD;
+  border-radius: 50%;
+  box-shadow: 0px 2px 2px #888888;
+}
+
+.links p {
+  padding: 10px 100px;
+}
+.links p:first-child{
+  background-color: #32508C;
+}
+.links p:nth-child(2){
+  background-color: #5CB9F2;
+}
+.links p:last-child{
+  background-color: #D9483B;
+}
+a{
+  color: #FFFFFF;
+  text-decoration: inherit;
+}
+a:hover{
+  text-shadow: 0px 0px 1px black;
+  color: black;
+}
+

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e9dc2ece-6d80-431c-8904-75dbdc205779" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week 1/Day 3/src/booline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week 1/Day 3/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week 1/Day 3/src/practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week 1/Day 3/src/utolso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week 1/Day 3/src/vegreelkezdem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DiceSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pirates/Pirate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pirates/Ship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pokemon/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vehicle/postIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fleetofthings/Fleetofthings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fleetofthings/Thing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fleetofthings/fleet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greenfoxinh/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gyak/gyakorlas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gyak/masodik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gyak2/blogPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gyak2/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gyak3/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gyak3/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gyak4/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gyak4/sharpie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/matrev.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week3/Day4/src/diceSet/DiceSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week3/Day4/src/diceSet/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week3/Day4/src/gyakorlas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week3/Day4/src/main/Pokemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week3/Day4/src/main/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Green Fox .iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Green Fox .iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Draw/src/Drawing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 1/booline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 1/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 1/practice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 1/utolso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 1/vegreelkezdem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 1/AppendA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 1/src/AppendA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 1/Doubling.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 1/src/Doubling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 1/Factorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 1/src/Factorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 1/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 1/src/Greeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 1/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 1/src/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 1/Summing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 1/src/Summing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 1/array.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 1/src/array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 1/gyakorlas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 1/src/gyakorlas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 1/reversee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 1/src/reversee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 2/Hashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 2/src/Hashmap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 2/List1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 2/src/List1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 2/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 2/src/Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 2/Simplereplace.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 2/src/Simplereplace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 2/TakesLonger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 2/src/TakesLonger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 2/TodoPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 2/src/TodoPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 2/Urlfixer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 2/src/Urlfixer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 2/list2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 2/src/list2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 2/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 2/src/map2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 3/PrintEachLine2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 3/src/PrintEachLine2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 3/copyfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 3/src/copyfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 3/fileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 3/src/fileIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 4/CenterBoxFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 4/src/CenterBoxFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 4/CenteredSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 4/src/CenteredSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 4/ColoredBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 4/src/ColoredBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 4/Diagonals.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 4/src/Diagonals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 4/Drawing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 4/src/Drawing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 4/FourRectangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 4/src/FourRectangles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 4/GoToCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 4/src/GoToCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 4/HorizontalLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 4/src/HorizontalLines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 4/LineInTheMiddle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 4/src/LineInTheMiddle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/Day 4/PositionSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/Day 4/src/PositionSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/Day 1/PrintEachLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Day 1/src/PrintEachLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/Day 1/ToBeReversed.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Day 1/src/ToBeReversed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/Day 1/Writeafile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Day 1/src/Writeafile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/Day 1/spend.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Day 1/src/spend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/Day 1/writemultiplelines.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Day 1/src/writemultiplelines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/Day2/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Day2/src/animal/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/Day2/animal/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Day2/src/animal/AnimalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/Day2/counter/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Day2/src/counter/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/Day2/counter/CounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Day2/src/counter/CounterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/Day2/object/ori.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Day2/src/object/ori.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/Day2/object/oriTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Day2/src/object/oriTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/Day2/object2/BlogPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Day2/src/object2/BlogPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/Day2/object2/BlogPostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Day2/src/object2/BlogPostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/Day2/pokemon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Day2/src/pokemon/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/Day2/pokemon/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Day2/src/pokemon/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/Day2/sharpie/Sharpie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Day2/src/sharpie/Sharpie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/Day2/sharpie/sharpieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/Day2/src/sharpie/sharpieTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ZWN4hsKh3LBRcllRVUI4zbWe2e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager" selected="Application.BattleApp">
+    <configuration name="BattleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pirates.BattleApp" />
+      <module name="Day-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pirates.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiceSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DiceSet" />
+      <module name="Day-01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fleetofthings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fleetofthings.Fleetofthings" />
+      <module name="Day-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fleetofthings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pokemon.Main" />
+      <module name="Day-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pokemon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson" />
+      <module name="Day-01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BattleApp" />
+        <item itemvalue="Application.lesson" />
+        <item itemvalue="Application.DiceSet" />
+        <item itemvalue="Application.Fleetofthings" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9dc2ece-6d80-431c-8904-75dbdc205779" name="Default Changelist" comment="" />
+      <created>1584950700109</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584950700109</updated>
+      <workItem from="1584950702154" duration="23176000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="149" key="#Project_Structure" timestamp="1585058847564">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="320" y="149" key="#Project_Structure/0.23.1440.834@0.23.1440.834" timestamp="1585058847564" />
+    <state width="1398" height="268" key="GridCell.Tab.0.bottom" timestamp="1585297477934">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="268" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1585297477934" />
+    <state width="1398" height="268" key="GridCell.Tab.0.center" timestamp="1585297477933">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="268" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1585297477933" />
+    <state width="1398" height="268" key="GridCell.Tab.0.left" timestamp="1585297477932">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="268" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1585297477932" />
+    <state width="1398" height="268" key="GridCell.Tab.0.right" timestamp="1585297477933">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="268" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1585297477933" />
+    <state width="1398" height="268" key="GridCell.Tab.1.bottom" timestamp="1585297477935">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="268" key="GridCell.Tab.1.bottom/0.23.1440.834@0.23.1440.834" timestamp="1585297477935" />
+    <state width="1398" height="268" key="GridCell.Tab.1.center" timestamp="1585297477935">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="268" key="GridCell.Tab.1.center/0.23.1440.834@0.23.1440.834" timestamp="1585297477935" />
+    <state width="1398" height="268" key="GridCell.Tab.1.left" timestamp="1585297477934">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="268" key="GridCell.Tab.1.left/0.23.1440.834@0.23.1440.834" timestamp="1585297477934" />
+    <state width="1398" height="268" key="GridCell.Tab.1.right" timestamp="1585297477935">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="268" key="GridCell.Tab.1.right/0.23.1440.834@0.23.1440.834" timestamp="1585297477935" />
+    <state x="426" y="63" key="refactoring.ChangeSignatureDialog" timestamp="1585060807075">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="426" y="63" key="refactoring.ChangeSignatureDialog/0.23.1440.834@0.23.1440.834" timestamp="1585060807075" />
+    <state x="385" y="181" width="670" height="676" key="search.everywhere.popup" timestamp="1585064061783">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="385" y="181" width="670" height="676" key="search.everywhere.popup/0.23.1440.834@0.23.1440.834" timestamp="1585064061783" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lesson.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lesson.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

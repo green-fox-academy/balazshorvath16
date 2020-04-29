@@ -1,0 +1,147 @@
+html {
+    font-size: 16px;
+    color: #F44336;
+    text-align-all: center;
+    background: white;
+    padding: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #F44336;
+}
+
+h1 {
+    text-shadow: 2px 2px;
+    alignment: center;
+    color: turquoise;
+}
+
+a {
+    color: white;
+    padding: 2px 2px;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 20px;
+}
+
+form {
+    position: absolute;
+    margin-left: 100px;
+}
+
+input {
+    background-color: #F44336;
+    border: none;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.search-area:hover > .searchInput {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-area:hover > .searchButton {
+    background: white;
+    color: #2f3640;
+}
+
+.searchButton {
+    color: white;
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #2f3640;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+
+.searchInput {
+    border: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    text-decoration: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+@media screen and (max-width: 620px) {
+    .search-area:hover > .searchInput {
+        width: 100px;
+        padding: 0 6px;
+    }
+}
+
+h2 {
+    margin-top: 80px;
+}
+
+table, th, td, tr {
+    margin-top: 80px;
+    padding: 10px;
+    text-align-all: center;
+}
+
+th {
+    color: black;
+    background-color: turquoise;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    color: black;
+}
+
+/* Style the submit button */
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: black;
+    font-size: 17px;
+    border: 1px solid red;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: red;
+}
+
+/* Clear floats */
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}

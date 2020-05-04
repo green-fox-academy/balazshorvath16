@@ -1,58 +1,59 @@
 package com.greenfoxacademy.bankofsimba.models;
 
 public class BankAccount {
-   private String name;
-   private int balance;
-   private String animalType;
-   private boolean king;
-   private boolean good;
 
-    public BankAccount(String name, int balance, String animalType, boolean king, boolean good) {
-        this.name = name;
-        this.balance = balance;
-        this.animalType = animalType;
-        this.king = king;
-        this.good = good;
-    }
+  private String name;
+  private int balance;
+  private String animalType;
+  private boolean king;
+  private boolean good;
 
-    public String getName() {
-        return name;
-    }
+  public BankAccount(String name, int balance, String animalType, boolean king, boolean good) {
+    this.name = name;
+    this.balance = balance;
+    this.animalType = animalType;
+    this.king = king;
+    this.good = good;
+  }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+  public String getName() {
+    return name;
+  }
 
-    public int getBalance() {
-        return balance;
-    }
+  public void setName(String name) {
+    this.name = name;
+  }
 
-    public void setBalance(int balance) {
-        this.balance = balance;
-    }
+  public int getBalance() {
+    return balance;
+  }
 
-    public String getAnimalType() {
-        return animalType;
-    }
+  public void setBalance(int balance) {
+    this.balance = balance;
+  }
 
-    public void setAnimalType(String animalType) {
-        this.animalType = animalType;
-    }
+  public String getAnimalType() {
+    return animalType;
+  }
 
-    public boolean isKing() {
-        return king;
-    }
+  public void setAnimalType(String animalType) {
+    this.animalType = animalType;
+  }
 
-    public void setKing(boolean king) {
-        this.king = king;
-    }
+  public boolean isKing() {
+    return king;
+  }
 
-    public boolean isGood() {
-        return good;
-    }
+  public void setKing(boolean king) {
+    this.king = king;
+  }
 
-    public void setGood(boolean good) {
-        this.good = good;
-    }
+  public boolean isGood() {
+    return good;
+  }
+
+  public void setGood(boolean good) {
+    this.good = good;
+  }
 
 }

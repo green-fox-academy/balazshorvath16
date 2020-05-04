@@ -6,9 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class writemultiplelines {
-    public static void main(String[] args) {
 
-        // Create a function that takes 3 parameters: a path, a word and a number
+  public static void main(String[] args) {
+
+    // Create a function that takes 3 parameters: a path, a word and a number
 // and is able to write into a file.
 // The path parameter should be a string that describes the location of the file you wish to modify
 // The word parameter should also be a string that will be written to the file as individual lines
@@ -16,23 +17,23 @@ public class writemultiplelines {
 // If the word is 'apple' and the number is 5, it should write 5 lines
 // into the file and each line should read 'apple'
 // The function should not raise any errors if it could not write the file.
-        russkaja("/Users/horvathbalazs16/Desktop/Green Fox /untitledfasfsf/src/asd.txt", "anything", 5);
+    russkaja("/Users/horvathbalazs16/Desktop/Green Fox /untitledfasfsf/src/asd.txt", "anything", 5);
+
+  }
+
+  public static void russkaja(String path, String word, int number) {
+    Path something = Paths.get(path);
+    List<String> valami = new ArrayList<>();
+
+    for (int i = 0; i < number; i++) {
+      valami.add(word);
+
 
     }
-
-    public static void russkaja(String path, String word, int number) {
-        Path something = Paths.get(path);
-        List<String> valami = new ArrayList<>();
-
-        for (int i = 0; i < number ; i++) {
-            valami.add(word);
-
-
-        }
-        try {
-            Files.write(something, valami);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    try {
+      Files.write(something, valami);
+    } catch (IOException e) {
+      e.printStackTrace();
     }
+  }
 }

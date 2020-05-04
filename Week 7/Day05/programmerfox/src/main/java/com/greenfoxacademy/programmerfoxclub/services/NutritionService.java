@@ -9,27 +9,28 @@ import java.util.List;
 
 @Service
 public class NutritionService {
-    private List<Food> foodList;
-    private List<Drink> drinkList;
 
-    public List<Food> getFoodList() {
-        return foodList;
-    }
+  private List<Food> foodList;
+  private List<Drink> drinkList;
 
-    public void setFoodList(List<Food> foodList) {
-        this.foodList = foodList;
-    }
+  public List<Food> getFoodList() {
+    return foodList;
+  }
 
-    public List<Drink> getDrinkList() {
-        return drinkList;
-    }
+  public void setFoodList(List<Food> foodList) {
+    this.foodList = foodList;
+  }
 
-    public void setDrinkList(List<Drink> drinkList) {
-        this.drinkList = drinkList;
-    }
+  public List<Drink> getDrinkList() {
+    return drinkList;
+  }
 
-    public NutritionService() {
-        foodList = new ArrayList<Food>();
-        drinkList = new ArrayList<Drink>();
-    }
+  public void setDrinkList(List<Drink> drinkList) {
+    this.drinkList = drinkList;
+  }
+
+  public NutritionService() {
+    foodList = new ArrayList<Food>();
+    drinkList = new ArrayList<Drink>();
+  }
 }

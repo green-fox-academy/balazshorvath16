@@ -44,7 +44,8 @@ public class UtilitiController {
   }
 
   @GetMapping("/useful/encode")
-  public String encode(@RequestParam(value = "text") String text, @RequestParam(value = "number") String number, Model model) {
+  public String encode(@RequestParam(value = "text") String text,
+      @RequestParam(value = "number") String number, Model model) {
     if (number != null && !number.isEmpty() && text != null && !text.isEmpty()) {
       model.addAttribute("result", service.caesar(text, Integer.valueOf(number)));
     } else {
@@ -54,7 +55,8 @@ public class UtilitiController {
   }
 
   @GetMapping("/useful/decode")
-  public String decode(@RequestParam(value = "text") String text, @RequestParam(value = "number") String number, Model model) {
+  public String decode(@RequestParam(value = "text") String text,
+      @RequestParam(value = "number") String number, Model model) {
     if (number != null && !number.isEmpty() && text != null && !text.isEmpty()) {
       model.addAttribute("result", service.caesar(text, Integer.valueOf(number) * -1));
     } else {

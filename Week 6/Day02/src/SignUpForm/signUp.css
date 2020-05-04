@@ -11,26 +11,28 @@ body {
   font-size: 16px;
 }
 
-form{
+form {
   width: 300px;
 }
-h1{
+
+h1 {
   text-transform: uppercase;
   font-size: 26px;
   letter-spacing: 0.1em;
 }
 
-input{
+input {
   display: block;
   margin-bottom: 20px;
   width: 100%;
-  border:none;
+  border: none;
   border-bottom: 1px solid #F2F2F2;
-  background-image:none;
-  background-color:transparent;
+  background-image: none;
+  background-color: transparent;
   box-shadow: none;
   padding: 10px 0 10px 20px;
 }
+
 input:focus {
   border-bottom: 2px solid #1BA67E;
   outline: none;
@@ -48,13 +50,14 @@ button {
   font-size: 15px;
 }
 
-.centerflex{
+.centerflex {
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
 }
-.flexcontainer{
+
+.flexcontainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -75,20 +78,25 @@ button {
 .links p {
   padding: 10px 100px;
 }
-.links p:first-child{
+
+.links p:first-child {
   background-color: #32508C;
 }
-.links p:nth-child(2){
+
+.links p:nth-child(2) {
   background-color: #5CB9F2;
 }
-.links p:last-child{
+
+.links p:last-child {
   background-color: #D9483B;
 }
-a{
+
+a {
   color: #FFFFFF;
   text-decoration: inherit;
 }
-a:hover{
+
+a:hover {
   text-shadow: 0px 0px 1px black;
   color: black;
 }

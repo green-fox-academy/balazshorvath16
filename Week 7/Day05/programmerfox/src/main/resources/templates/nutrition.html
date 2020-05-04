@@ -2,42 +2,42 @@
 <html lang="en">
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <title>Nutrition View</title>
+  <meta charset="UTF-8">
+  <title>Nutrition View</title>
 </head>
 <body>
 <header>
-    <u1>
-        <li><a href="http://localhost:8080/information">Information</a></li>
-        <li><a href="http://localhost:8080/nutritionstore">Nutrition Store</a></li>
-        <li><a href="http://localhost:8080/trickCenter">Trick Center</a></li>
-        <li><a href="/">Action history</a></li>
-    </u1>
+  <u1>
+    <li><a href="http://localhost:8080/information">Information</a></li>
+    <li><a href="http://localhost:8080/nutritionstore">Nutrition Store</a></li>
+    <li><a href="http://localhost:8080/trickCenter">Trick Center</a></li>
+    <li><a href="/">Action history</a></li>
+  </u1>
 </header>
 <main>
-    <p>Here you can change the food and drink for your FOX. </p>
-    <p>Please pay attention to the health of your FOX:)</p>
-    <form th:action="@{'/nutritionStore'}" th:method="post">
-        <label for="food">Food</label>
-        <select name="food" id="food">
-            <option th:each="food : ${T(com.greenfoxacademy.programmerfoxclub.models.Food).valueOf()}"
-                    th:value="${foods}"
-                    th:text="${foods}"
-                    th:selected="${selectedFox.getFood()} == ${foods}">
-            </option>
-        </select>
-        </select>
-        <label for="drink">Drink</label>
-        <select name="selectedDrink" id="drink">
-            <option th:each="drink : ${T(com.greenfoxacademy.programmerfoxclub.models.Drink).valueOf()}"
-                    th:value="${drinks}"
-                    th:text="${drinks}"
-                    th:selected="${selectedFox.getDrink()} == ${drinks}">
-            </option>
-        </select>
-        </select>
-        <button type="submit">Change</button>
-    </form>
+  <p>Here you can change the food and drink for your FOX. </p>
+  <p>Please pay attention to the health of your FOX:)</p>
+  <form th:action="@{'/nutritionStore'}" th:method="post">
+    <label for="food">Food</label>
+    <select name="food" id="food">
+      <option th:each="food : ${T(com.greenfoxacademy.programmerfoxclub.models.Food).valueOf()}"
+              th:value="${foods}"
+              th:text="${foods}"
+              th:selected="${selectedFox.getFood()} == ${foods}">
+      </option>
+    </select>
+    </select>
+    <label for="drink">Drink</label>
+    <select name="selectedDrink" id="drink">
+      <option th:each="drink : ${T(com.greenfoxacademy.programmerfoxclub.models.Drink).valueOf()}"
+              th:value="${drinks}"
+              th:text="${drinks}"
+              th:selected="${selectedFox.getDrink()} == ${drinks}">
+      </option>
+    </select>
+    </select>
+    <button type="submit">Change</button>
+  </form>
 </main>
 
 </body>

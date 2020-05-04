@@ -1,31 +1,32 @@
-    package Week3.Day2.pokemon;
+package Week3.Day2.pokemon;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-    public static void main(String[] args) {
-        List<Pokemon> pokemonOfAsh = initializePokemons();
 
-        // Every pokemon has a name and a type.
-        // Certain types are effective against others, e.g. water is effective against fire.
+  public static void main(String[] args) {
+    List<Pokemon> pokemonOfAsh = initializePokemons();
 
-        // Ash has a few pokemon.
-        // A wild pokemon appeared!
+    // Every pokemon has a name and a type.
+    // Certain types are effective against others, e.g. water is effective against fire.
 
-        Pokemon wildPokemon = new Pokemon("Oddish", "leaf", "water");
+    // Ash has a few pokemon.
+    // A wild pokemon appeared!
 
-        // Which pokemon should Ash use?
+    Pokemon wildPokemon = new Pokemon("Oddish", "leaf", "water");
 
-        System.out.print("I choose you, ");
+    // Which pokemon should Ash use?
 
-        for (int i = 0; i < pokemonOfAsh.size(); i++) {
-            if (pokemonOfAsh.get(i).isEffectiveAgainst(wildPokemon)) {
-                System.out.println(pokemonOfAsh.get(i).getName());
-                break;
-    }
+    System.out.print("I choose you, ");
 
-    private static List<Pokemon> initializePokemons() {
+    for (int i = 0; i < pokemonOfAsh.size(); i++) {
+      if (pokemonOfAsh.get(i).isEffectiveAgainst(wildPokemon)) {
+        System.out.println(pokemonOfAsh.get(i).getName());
+        break;
+      }
+
+      private static List<Pokemon> initializePokemons () {
         List<Pokemon> pokemon = new ArrayList<>();
 
         pokemon.add(new Pokemon("Balbasaur", "leaf", "water"));
@@ -35,5 +36,5 @@ public class Main {
         pokemon.add(new Pokemon("Kingler", "water", "fire"));
 
         return pokemon;
+      }
     }
-}

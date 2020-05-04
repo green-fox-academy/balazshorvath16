@@ -18,6 +18,7 @@ public class DependencyinjectionApplication implements CommandLineRunner {
     this.color = color;
     this.printer = printer;
   }
+
   public static void main(String[] args) {
     SpringApplication.run(DependencyinjectionApplication.class, args);
   }

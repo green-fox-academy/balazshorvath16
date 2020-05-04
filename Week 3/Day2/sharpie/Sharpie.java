@@ -9,20 +9,21 @@ Every sharpie is created with a default 100 as inkAmount
 We can use() the sharpie objects
 which decreases inkAmount */
 
-    String color;
-    float width;
-    float inkAmount;
+  String color;
+  float width;
+  float inkAmount;
 
-public Sharpie(String color, float width) {
+  public Sharpie(String color, float width) {
     this.color = color;
     this.width = width;
     this.inkAmount = 100;
-}
-public void use () {
+  }
+
+  public void use() {
     this.inkAmount--;
 
 
-}
+  }
 
 }
 

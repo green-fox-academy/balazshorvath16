@@ -13,8 +13,9 @@ public class SpringstartApplication {
   public static void main(String[] args) {
     SpringApplication.run(SpringstartApplication.class, args);
   }
+
   @ResponseBody
-  @RequestMapping(value="/hello")
+  @RequestMapping(value = "/hello")
   public String hello() {
     return "Hello world";
   }

@@ -41,19 +41,16 @@ public class lambda {
         .collect(Collectors.toList());
     System.out.println("Squared value is more then 20: " + moreThen);
 
-
     System.out.println("-------------------");
     //Write a Stream Expression to get the average value of the odd numbers from the following list:
     System.out.println("Exercise 4");
     List<Integer> numbers4 = Arrays.asList(1, 3, -2, -4, -7, -3, -8, 12, 19, 6, 9, 10, 14);
-
 
     numbers4.stream()
         .filter(i -> i % 2 != 0)
         .mapToInt(i -> i)
         .average()
         .ifPresent(avg -> System.out.println("Average value of the odd numbers: " + avg));
-
 
     System.out.println("-------------------");
 
@@ -66,30 +63,29 @@ public class lambda {
         .sum();
     System.out.println("Sum of the odd numbers: " + sum);
 
-
     System.out.println("-------------------");
 
     //Write a Stream Expression to find the uppercase characters in a string!
     System.out.println("Exercise 6");
     String string = "FinD THe UpPerCaSe";
 
-     string.chars()
-         .filter(Character::isUpperCase)
-         .mapToObj(Character::toChars)
-         .forEach(System.out::println);
-
+    string.chars()
+        .filter(Character::isUpperCase)
+        .mapToObj(Character::toChars)
+        .forEach(System.out::println);
 
     System.out.println("-------------------");
 
     //Write a Stream Expression to find the strings which starts with
     // a given letter(as parameter), in the following list:
     System.out.println("Exercise 7");
-    List<String> cities = Arrays.asList("ROME", "LONDON", "NAIROBI", "CALIFORNIA", "ZURICH", "NEW DELHI", "AMSTERDAM",
+    List<String> cities = Arrays
+        .asList("ROME", "LONDON", "NAIROBI", "CALIFORNIA", "ZURICH", "NEW DELHI", "AMSTERDAM",
             "ABU DHABI", "PARIS");
     String givenChar = "C";
-   cities.stream()
-       .filter(chr -> chr.startsWith(givenChar))
-       .forEach(System.out::println);
+    cities.stream()
+        .filter(chr -> chr.startsWith(givenChar))
+        .forEach(System.out::println);
 
     System.out.println("-------------------");
     //Write a Stream Expression to concatenate a Character list to a string!
@@ -112,7 +108,6 @@ public class lambda {
     System.out.println("Frequency of characters: " + count);
 
     System.out.println("-------------------");
-
 
     //Create a Fox class with 3 properties:
     // name, color and age Fill a list with at least 5 foxes and:

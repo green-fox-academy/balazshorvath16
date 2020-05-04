@@ -27,7 +27,7 @@ public class HelloWebController {
     model.addAttribute("hellos", hellos[random]);
     model.addAttribute("name", name);
     model.addAttribute("fontSize", fontSize);
-    model.addAttribute("color",color);
+    model.addAttribute("color", color);
     return "greeting";
   }
 }

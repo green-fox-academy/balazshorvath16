@@ -14,26 +14,27 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 @RequestMapping
 public class FoxController {
-    private NutritionService nutritionService;
-    private FoxService foxService;
 
-    @Autowired
-    public FoxController(NutritionService nutritionService, FoxService foxService) {
-        this.nutritionService = nutritionService;
-        this.foxService = foxService;
-    }
+  private NutritionService nutritionService;
+  private FoxService foxService;
 
-    @GetMapping("/nutritionStore")
-    public String getNutritionInfo(@RequestParam String name, Model model) {
-        model.addAttribute("selectedFox", foxService.getFox(name));
-        model.addAttribute("foods", nutritionService.getFoodList());
-        model.addAttribute("drinks", nutritionService.getDrinkList());
-        return "nutrition";
-    }
+  @Autowired
+  public FoxController(NutritionService nutritionService, FoxService foxService) {
+    this.nutritionService = nutritionService;
+    this.foxService = foxService;
+  }
 
-    public String changeNutrition(@RequestParam String name, Food food, Drink drink) {
-        foxService.getFox(name).setFood(food);
-        foxService.getFox(name).setDrink(drink);
-        return "redirect:/?name=" + name;
-    }
+  @GetMapping("/nutritionStore")
+  public String getNutritionInfo(@RequestParam String name, Model model) {
+    model.addAttribute("selectedFox", foxService.getFox(name));
+    model.addAttribute("foods", nutritionService.getFoodList());
+    model.addAttribute("drinks", nutritionService.getDrinkList());
+    return "nutrition";
+  }
+
+  public String changeNutrition(@RequestParam String name, Food food, Drink drink) {
+    foxService.getFox(name).setFood(food);
+    foxService.getFox(name).setDrink(drink);
+    return "redirect:/?name=" + name;
+  }
 }

@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloRESTController {
-AtomicLong increment = new AtomicLong(1);
+
+  AtomicLong increment = new AtomicLong(1);
 
   @RequestMapping(value = "/greeting")
   public Greeting greeting(@RequestParam String name) {

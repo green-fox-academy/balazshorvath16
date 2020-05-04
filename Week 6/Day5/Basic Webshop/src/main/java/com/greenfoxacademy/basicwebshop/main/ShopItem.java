@@ -1,31 +1,32 @@
 package com.greenfoxacademy.basicwebshop.main;
 
 public class ShopItem {
-    private String name;
-    private String description;
-    private int price;
-    private int quantityOfStock;
 
-    public ShopItem(String name, String description, int price, int quantityOfStock) {
-        this.name = name;
-        this.description = description;
-        this.price = price;
-        this.quantityOfStock = quantityOfStock;
-    }
+  private String name;
+  private String description;
+  private int price;
+  private int quantityOfStock;
 
-    public String getName() {
-        return name;
-    }
+  public ShopItem(String name, String description, int price, int quantityOfStock) {
+    this.name = name;
+    this.description = description;
+    this.price = price;
+    this.quantityOfStock = quantityOfStock;
+  }
 
-    public String getDescription() {
-        return description;
-    }
+  public String getName() {
+    return name;
+  }
 
-    public int getPrice() {
-        return price;
-    }
+  public String getDescription() {
+    return description;
+  }
 
-    public int getQuantityOfStock() {
-        return quantityOfStock;
-    }
+  public int getPrice() {
+    return price;
+  }
+
+  public int getQuantityOfStock() {
+    return quantityOfStock;
+  }
 }

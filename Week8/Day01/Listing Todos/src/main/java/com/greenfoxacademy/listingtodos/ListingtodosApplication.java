@@ -10,22 +10,22 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ListingtodosApplication implements CommandLineRunner {
 
-    TodoRepository todoRepository;
+  TodoRepository todoRepository;
 
-    @Autowired
-    public ListingtodosApplication(TodoRepository todoRepository) {
-        this.todoRepository = todoRepository;
-    }
+  @Autowired
+  public ListingtodosApplication(TodoRepository todoRepository) {
+    this.todoRepository = todoRepository;
+  }
 
-    public static void main(String[] args) {
-        SpringApplication.run(ListingtodosApplication.class, args);
-    }
+  public static void main(String[] args) {
+    SpringApplication.run(ListingtodosApplication.class, args);
+  }
 
-    @Override
-    public void run(String...args) throws Exception {
-        todoRepository.save(new Todo("I have to learn Object Relational Mapping"));
-        todoRepository.save(new Todo("I have to learn DI"));
-        todoRepository.save(new Todo("I have to practice SQL."));
-        todoRepository.save(new Todo("I have to learn HTML & CSS"));
-    }
+  @Override
+  public void run(String... args) throws Exception {
+    todoRepository.save(new Todo("I have to learn Object Relational Mapping"));
+    todoRepository.save(new Todo("I have to learn DI"));
+    todoRepository.save(new Todo("I have to practice SQL."));
+    todoRepository.save(new Todo("I have to learn HTML & CSS"));
+  }
 }

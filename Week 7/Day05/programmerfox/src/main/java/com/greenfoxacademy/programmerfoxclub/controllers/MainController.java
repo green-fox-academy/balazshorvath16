@@ -14,43 +14,43 @@ import java.util.List;
 @RequestMapping
 public class MainController {
 
-    private FoxService foxService;
-    private NutritionService nutritionService;
+  private FoxService foxService;
+  private NutritionService nutritionService;
 
-    @Autowired
-    public MainController(FoxService foxService, NutritionService nutritionService) {
-        this.foxService = foxService;
-        this.nutritionService = nutritionService;
-    }
+  @Autowired
+  public MainController(FoxService foxService, NutritionService nutritionService) {
+    this.foxService = foxService;
+    this.nutritionService = nutritionService;
+  }
 
-    @GetMapping("/login")
-    public String getLogin() {
-        return "login";
-    }
+  @GetMapping("/login")
+  public String getLogin() {
+    return "login";
+  }
 
-    @PostMapping("/login")
-    public String getLoginInfo(@RequestParam String name) {
-        return "redirect:/?name=" + name;
-    }
+  @PostMapping("/login")
+  public String getLoginInfo(@RequestParam String name) {
+    return "redirect:/?name=" + name;
+  }
 
-    @GetMapping("/")
-    public String getInfoPage(@RequestParam(required = false) String name, Model model) {
-        model.addAttribute("name", name);
-        model.addAttribute("selectedFox", foxService.getFox(name));
-        model.addAttribute("foods", nutritionService.getFoodList());
-        model.addAttribute("drinks", nutritionService.getDrinkList());
-        return "index";
-    }
+  @GetMapping("/")
+  public String getInfoPage(@RequestParam(required = false) String name, Model model) {
+    model.addAttribute("name", name);
+    model.addAttribute("selectedFox", foxService.getFox(name));
+    model.addAttribute("foods", nutritionService.getFoodList());
+    model.addAttribute("drinks", nutritionService.getDrinkList());
+    return "index";
+  }
 
-    @GetMapping("/trickCenter")
-    public String getTricks() {
-        return "tricks";
-    }
+  @GetMapping("/trickCenter")
+  public String getTricks() {
+    return "tricks";
+  }
 
-    @PostMapping("/login")
-    public String postTricks(@RequestParam String name) {
-        return "redirect:/?name=" + name;
-    }
+  @PostMapping("/login")
+  public String postTricks(@RequestParam String name) {
+    return "redirect:/?name=" + name;
+  }
 
 }
 

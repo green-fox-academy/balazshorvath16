@@ -1,7 +1,8 @@
 import java.util.ArrayList;
 
 public class List1 {
-    public static void main(String[] args) {
+
+  public static void main(String[] args) {
 
        /* Create an empty list which will contain names (strings)
                 Print out the number of elements in the list
@@ -25,47 +26,46 @@ public class List1 {
         William
         Remove all elements */
 
-        ArrayList<String> names = new ArrayList<>();
+    ArrayList<String> names = new ArrayList<>();
 
-        System.out.println(names.size());
+    System.out.println(names.size());
 
-        names.add("William");
+    names.add("William");
 
-        if (names.size() == 0) System.out.println("empty");
-        else System.out.println("not empty");
+    if (names.size() == 0) {
+      System.out.println("empty");
+    } else {
+      System.out.println("not empty");
+    }
 
-        names.add("John");
-        names.add("Amandra");
+    names.add("John");
+    names.add("Amandra");
 
+    System.out.println(names.size());
+    System.out.println(names.get(2));
 
-        System.out.println(names.size());
-        System.out.println(names.get(2));
+    int i = 0;
+    while (i < names.size()) {
+      System.out.println(names.get(i));
+      i++;
+    }
 
-        int i = 0;
-        while (i < names.size()) {
-            System.out.println(names.get(i));
-            i++;
-        }
+    for (int j = 0; j < names.size(); j++) {
+      System.out.println((j + 1) + ". " + names.get(j));
 
-        for (int j = 0; j < names.size() ; j++) {
-            System.out.println((j + 1) + ". " + names.get(j));
+    }
 
-        }
+    names.remove(1);
 
-        names.remove(1);
-
-
-        for (int x = names.size() - 1; x >= 0; x--) {
-            System.out.println( names.get(x));
-
-
-
-        }
-        names.clear();
-
-
-        }
-
+    for (int x = names.size() - 1; x >= 0; x--) {
+      System.out.println(names.get(x));
 
 
     }
+    names.clear();
+
+
+  }
+
+
+}

@@ -11,24 +11,24 @@ import java.util.Map;
 @Service
 public class FoxService {
 
-    private Map<String, Fox> foxes;
+  private Map<String, Fox> foxes;
 
-    public FoxService() {
-        this.foxes = new HashMap<>();
+  public FoxService() {
+    this.foxes = new HashMap<>();
 
-        this.foxes.put("Vulpix", new Fox("Vulpix", Food.PIZZA, Drink.COLA));
-        this.foxes.put("Vuk", new Fox("Vuk", Food.HAMBURGER, Drink.LEMONADE));
-        this.foxes.put("Eevee", new Fox("Eevee", Food.GYROS, Drink.SPRITE));
-        this.foxes.put("Mr.Green", new Fox("Mr. Green", Food.SALAD, Drink.WATER));
-    }
+    this.foxes.put("Vulpix", new Fox("Vulpix", Food.PIZZA, Drink.COLA));
+    this.foxes.put("Vuk", new Fox("Vuk", Food.HAMBURGER, Drink.LEMONADE));
+    this.foxes.put("Eevee", new Fox("Eevee", Food.GYROS, Drink.SPRITE));
+    this.foxes.put("Mr.Green", new Fox("Mr. Green", Food.SALAD, Drink.WATER));
+  }
 
-    public Fox getFox(String name) {
-        return foxes.get(name);
+  public Fox getFox(String name) {
+    return foxes.get(name);
 
-    }
+  }
 
-    public Map<String, Fox> getFox() {
-        return foxes;
-    }
+  public Map<String, Fox> getFox() {
+    return foxes;
+  }
 
 }

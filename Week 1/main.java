@@ -5,53 +5,53 @@ import java.util.Scanner;
 import java.util.SimpleTimeZone;
 
 public class main {
-    public static void main(String[] args) {
-        //Equal to               ==
-        //Greater then           >
-        //Less then              <
-        //Greater then/equal to  >=
-        //Less then/qual to      <=
-        //Not equal to           !=
-        //AND                    &&
-        //OR                     ||
 
-        //If (condition is true) {
-        //   do this code
-        // }
+  public static void main(String[] args) {
+    //Equal to               ==
+    //Greater then           >
+    //Less then              <
+    //Greater then/equal to  >=
+    //Less then/qual to      <=
+    //Not equal to           !=
+    //AND                    &&
+    //OR                     ||
 
-        int a = 0;
-        while (a < 10) {
-            System.out.println(a); // Prints the numbers from 0 to 9
-            a += 1;
-        }
-        // Modify this program to print Humpty Dumpty riddle correctly
-        System.out.println("All the king's horses and all the king's men");
-        System.out.println("Humpty Dumpty had a great fall.");
-        System.out.println("Humpty Dumpty sat on a wall,");
-        System.out.println("Couldn't put Humpty together again.");
+    //If (condition is true) {
+    //   do this code
+    // }
 
-        int word = 5;
-        // If only int then handled as int
-        System.out.println(word * word);
+    int a = 0;
+    while (a < 10) {
+      System.out.println(a); // Prints the numbers from 0 to 9
+      a += 1;
+    }
+    // Modify this program to print Humpty Dumpty riddle correctly
+    System.out.println("All the king's horses and all the king's men");
+    System.out.println("Humpty Dumpty had a great fall.");
+    System.out.println("Humpty Dumpty sat on a wall,");
+    System.out.println("Couldn't put Humpty together again.");
 
-        //if String and int present without brackets then handled as string
-        System.out.println("Word added to word is " + word + " " + word);
+    int word = 5;
+    // If only int then handled as int
+    System.out.println(word * word);
 
+    //if String and int present without brackets then handled as string
+    System.out.println("Word added to word is " + word + " " + word);
 
-        // if String and int present and wish to carry out arithmetic operations put in brackets
+    // if String and int present and wish to carry out arithmetic operations put in brackets
 
-        System.out.println("Word added to word is " + (word + word));
+    System.out.println("Word added to word is " + (word + word));
 
-        int c = 12;
-        System.out.println(c++);
-        System.out.println(c);
+    int c = 12;
+    System.out.println(c++);
+    System.out.println(c);
 
-        int d = 12;
-        System.out.println(++d);
-        System.out.println(d);
+    int d = 12;
+    System.out.println(++d);
+    System.out.println(d);
 
-        // Write a program that asks for a double that is a distance in miles,
-        // then it converts that value to kilometers and prints it
+    // Write a program that asks for a double that is a distance in miles,
+    // then it converts that value to kilometers and prints it
 
 
         /*Scanner in = new Scanner(System.in);
@@ -60,8 +60,7 @@ public class main {
         double mile = in.nextDouble();
         System.out.println(mile * 1.6);*/
 
-
-        // Write a program that reads a number from the standard input,
+    // Write a program that reads a number from the standard input,
 // Then prints "Odd" if the number is odd, or "Even" if it is even.
 
         /*Scanner in = new Scanner(System.in);
@@ -75,8 +74,7 @@ public class main {
 
         System.out.println(); */
 
-
-        // Write a program that reads a number form the standard input,
+    // Write a program that reads a number form the standard input,
 // If the number is zero or smaller it should print: Not enough
 // If the number is one it should print: One
 // If the number is two it should print: Two
@@ -97,8 +95,7 @@ public class main {
 
         System.out.println(); */
 
-
-        // Write a program that asks for two numbers
+    // Write a program that asks for two numbers
 // The first number represents the number of girls that comes to a party, the
 // second the boys
 // It should print: The party is excellent!
@@ -133,8 +130,7 @@ public class main {
 
         System.out.println(); */
 
-
-        // Create a program that writes this line 100 times:
+    // Create a program that writes this line 100 times:
 // "I won't cheat on the exam!"
 
        /* int x = 0;
@@ -144,14 +140,13 @@ public class main {
         }
 
 */
-        // Create a program that prints all the even numbers between 0 and 500
+    // Create a program that prints all the even numbers between 0 and 500
 
 /*
         for (int i = 0; i < 500; i++) {
             if (i % 2 == 0) System.out.println(i);;
         }
 */
-
 
 // Create a program that asks for a number and prints the multiplication table with that number
 //
@@ -180,8 +175,7 @@ public class main {
                     " = " + number * i);
 */
 
-
-        // Create a program that asks for two numbers
+    // Create a program that asks for two numbers
 // If the second number is not bigger than the first one it should print:
 // "The second number should be bigger"
 //
@@ -216,7 +210,7 @@ public class main {
         }
         */
 
-        // Write a program that prints the numbers from 1 to 100.
+    // Write a program that prints the numbers from 1 to 100.
 // But for multiples of three print “Fizz” instead of the number
 // and for the multiples of five print “Buzz”.
 // For numbers which are multiples of both three and five print “FizzBuzz”.
@@ -234,7 +228,7 @@ public class main {
             }
 
 */
-        // Write a program that reads a number from the standard input, then draws a
+    // Write a program that reads a number from the standard input, then draws a
 // triangle like this:
 //
 // *
@@ -256,17 +250,7 @@ public class main {
 
 */
 
-
-
-
-
-
-
-
-
-
-
-        // Crate a program that draws a chess table like this
+    // Crate a program that draws a chess table like this
 //
 // % % % %
 //  % % % %
@@ -278,23 +262,23 @@ public class main {
 //  % % % %
 //
 
-        System.out.println("Add a number: ");
-        Scanner input = new Scanner(System.in);
-        int number = input.nextInt();
+    System.out.println("Add a number: ");
+    Scanner input = new Scanner(System.in);
+    int number = input.nextInt();
 
-        for (int i=1; i<=number/2; i++){
-            for (int j=0; j<number/2; j++) {
-                System.out.print("% ");
-            }
-            System.out.print("\n");
-            for (int k=0; k<number/2; k++) {
-                System.out.print(" %");
-            }
-            System.out.print("\n");
+    for (int i = 1; i <= number / 2; i++) {
+      for (int j = 0; j < number / 2; j++) {
+        System.out.print("% ");
+      }
+      System.out.print("\n");
+      for (int k = 0; k < number / 2; k++) {
+        System.out.print(" %");
+      }
+      System.out.print("\n");
 
 
-        }
     }
+  }
 }
 
 

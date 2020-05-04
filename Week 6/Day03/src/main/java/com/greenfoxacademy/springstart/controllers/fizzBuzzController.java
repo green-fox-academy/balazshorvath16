@@ -7,20 +7,21 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class fizzBuzzController {
+
   AtomicLong counter = new AtomicLong(1);
 
   @RequestMapping("/web/fizzbuzzwoof")
   public String fizzBuzz(Model model) {
     long num = counter.getAndIncrement();
-    String names= "";
+    String names = "";
     int fontSize = 10;
-    if (num % 3 == 0 && num % 5 == 0 && num % 7 == 0){
+    if (num % 3 == 0 && num % 5 == 0 && num % 7 == 0) {
       names = "FizzBuzzWoof";
       fontSize = 72;
     } else if (num % 5 == 0 && num % 7 == 0) {
       names = "BuzzWoof";
       fontSize = 48;
-    } else if ( num % 5 == 0 && num % 3 == 0) {
+    } else if (num % 5 == 0 && num % 3 == 0) {
       names = "FizzWoof";
       fontSize = 24;
     } else if (num % 3 == 0) {

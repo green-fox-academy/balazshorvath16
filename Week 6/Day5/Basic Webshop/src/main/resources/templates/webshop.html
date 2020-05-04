@@ -2,49 +2,49 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="/style.css"/>
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/style.css"/>
+  <title>Title</title>
 </head>
 <body>
 
 
 <header>
 
-    <h1>My Webshop</h1>
+  <h1>My Webshop</h1>
 
-    <nav>
-        <a href="/only-available" target="blank">ONLY AVAILABLE</a>
-        <a href="/cheapest-first" target="blank">CHEAPEST FIRST</a>
-        <a href="/contains-nike" target="blank">CONTAINS NIKE</a>
-        <a href="/average-stock" target="blank">AVERAGE STOCK</a>
-        <a href="/most-expensive" target="blank">MOST EXPENSIVE AVAILABLE</a>
-    </nav>
+  <nav>
+    <a href="/only-available" target="blank">ONLY AVAILABLE</a>
+    <a href="/cheapest-first" target="blank">CHEAPEST FIRST</a>
+    <a href="/contains-nike" target="blank">CONTAINS NIKE</a>
+    <a href="/average-stock" target="blank">AVERAGE STOCK</a>
+    <a href="/most-expensive" target="blank">MOST EXPENSIVE AVAILABLE</a>
+  </nav>
 </header>
 
 <form class="example" action="action_page.php">
-    <input type="text" placeholder="...something like nike" name="Search">
-    <button type="submit"><i class="fa fa-search"></i></button>
+  <input type="text" placeholder="...something like nike" name="Search">
+  <button type="submit"><i class="fa fa-search"></i></button>
 </form>
 
 <table>
 
-    <thead>
-    <tr>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Price</th>
-        <th>Quantity of stock</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr th:each="item : ${shopItemList}">
-        <td th:text="${item.name}"></td>
-        <td th:text="${item.description}"></td>
-        <td th:text="${item.price}"></td>
-        <td th:text="${item.quantityOfStock}"></td>
-    </tr>
-    </tbody>
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Price</th>
+    <th>Quantity of stock</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr th:each="item : ${shopItemList}">
+    <td th:text="${item.name}"></td>
+    <td th:text="${item.description}"></td>
+    <td th:text="${item.price}"></td>
+    <td th:text="${item.quantityOfStock}"></td>
+  </tr>
+  </tbody>
 </table>
 </body>
 </html>

@@ -1,8 +1,8 @@
 public class AppendA {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
-        //  Create the usual class wrapper
+    //  Create the usual class wrapper
 //  and main method on your own.
 
 // - Create a string variable named `typo` and assign the value `Chinchill` to it
@@ -10,16 +10,16 @@ public class AppendA {
 //   appends an 'a' character to its end and returns with a string
 //
 // - Print the result of `appendAFunc(typo)`
-        String typo = "Chinchill";
-        String barmi = appendAfunc(typo);
-        System.out.println(barmi);
+    String typo = "Chinchill";
+    String barmi = appendAfunc(typo);
+    System.out.println(barmi);
 
-    }
+  }
 
-    public static String appendAfunc(String typo){
+  public static String appendAfunc(String typo) {
 
-        String correctWord = typo + "a";
-        return correctWord;
+    String correctWord = typo + "a";
+    return correctWord;
 
-    }
-    }
+  }
+}

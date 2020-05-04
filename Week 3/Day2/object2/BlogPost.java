@@ -20,16 +20,16 @@ public class BlogPost {
     Daniel Hanley, a cybersecurity engineer at IBM, doesn’t want to be the center of
     attention. When I asked to take his picture outside one of IBM’s New York City offices,
     he told me that he wasn’t really into the whole organizer profile thing. */
-        String authorName;
-        String title;
-        String text;
-        String publicationDate;
+  String authorName;
+  String title;
+  String text;
+  String publicationDate;
 
-  public BlogPost (String authorName, String  tile, String text, String publicationDate) {
-      this.authorName = authorName;
-      this.title = title;
-      this.text = text;
-      this.publicationDate = publicationDate;
+  public BlogPost(String authorName, String tile, String text, String publicationDate) {
+    this.authorName = authorName;
+    this.title = title;
+    this.text = text;
+    this.publicationDate = publicationDate;
 
-    }
+  }
 }

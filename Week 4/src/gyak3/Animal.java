@@ -1,22 +1,27 @@
 package gyak3;
 
 public class Animal {
-    int hunger;
-    int thirst;
-public Animal (int hunger, int thirst) {
+
+  int hunger;
+  int thirst;
+
+  public Animal(int hunger, int thirst) {
     this.hunger = hunger;
     this.thirst = thirst;
 
-}
-public void setHunger () {
+  }
+
+  public void setHunger() {
     hunger--;
-}
-public void setThirst(){
+  }
+
+  public void setThirst() {
     thirst--;
-}
-public void setPlay() {
+  }
+
+  public void setPlay() {
     hunger++;
     thirst++;
-}
+  }
 }
 

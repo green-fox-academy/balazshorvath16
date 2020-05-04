@@ -9,21 +9,21 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class TodoController {
 
-private TodoRepository todoRepository;
+  private TodoRepository todoRepository;
 
-    @Autowired
-    public TodoController(TodoRepository todoRepository) {
-        this.todoRepository = todoRepository;
-    }
+  @Autowired
+  public TodoController(TodoRepository todoRepository) {
+    this.todoRepository = todoRepository;
+  }
 
-    @GetMapping("/todo")
-    public String index() {
-        return "index";
-    }
+  @GetMapping("/todo")
+  public String index() {
+    return "index";
+  }
 
-    @GetMapping(value = {"/", "/list"})
-    public String list(Model model) {
-        model.addAttribute("todos", todoRepository.findAll() );
-        return "todolist";
-    }
+  @GetMapping(value = {"/", "/list"})
+  public String list(Model model) {
+    model.addAttribute("todos", todoRepository.findAll());
+    return "todolist";
+  }
 }

@@ -2,33 +2,38 @@ package Week3.Day2.counter;
 
 public class Counter {
 
-    int value;
-    int initialValue;
+  int value;
+  int initialValue;
 
-    public Counter(int value) {
-        this.value = value;
-    }
-    public Counter() {
-        this(0);
-    }
-    public void add() {
-        this.value++;
+  public Counter(int value) {
+    this.value = value;
+  }
 
-    }
-    public int get() {
-        return value;
-    }
-    public Counter(Integer value) {
-        this.value = value;
-        initialValue = value;
-    }
+  public Counter() {
+    this(0);
+  }
 
-    public void reset(){
+  public void add() {
+    this.value++;
+
+  }
+
+  public int get() {
+    return value;
+  }
+
+  public Counter(Integer value) {
+    this.value = value;
+    initialValue = value;
+  }
+
+  public void reset() {
     value = initialValue;
-    }
-    public void add (int num) {
+  }
 
-    }
+  public void add(int num) {
+
+  }
 }
 
 

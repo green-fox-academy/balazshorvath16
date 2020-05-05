@@ -2,8 +2,8 @@ package com.greenfoxacademz.frontend.model;
 
 public class Doubling {
 
-  Integer received;
-  Integer result;
+   private int received;
+   private int result;
 
   public Integer getReceived() {
     return received;
@@ -13,8 +13,16 @@ public class Doubling {
     return result;
   }
 
-  public Doubling(Integer received) {
+  public Doubling(int received) {
     this.received = received;
     this.result = received * 2;
+  }
+
+  public void setResult(int result) {
+    this.result=result;
+  }
+
+  public void setReceived() {
+    this.received = received;
   }
 }

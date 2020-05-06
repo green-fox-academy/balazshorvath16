@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+</head>
+<body>
+<h1>Login to reddit page</h1>
+
+<form th:action="@{'/reddit/login'}" th:method="post"></form>
+<label for="name">Username</label>
+<input type="text" id="name" name="name">
+<button type="submit">Login</button>
+</body>
+</html>

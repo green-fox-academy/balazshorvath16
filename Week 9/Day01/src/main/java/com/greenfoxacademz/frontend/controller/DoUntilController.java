@@ -12,7 +12,7 @@ public class DoUntilController {
 
   @PostMapping("/dountil/{action}")
   public ResponseEntity<?> doUntilAction(@PathVariable String aciton, @RequestBody DoUntil doUntil) {
-    if (doUntil.getUntil() == null) {
+    if (doUntil.getUntil() == 0) {
       return ResponseEntity.ok(new Error("Please provide a number!"));
     }
   }

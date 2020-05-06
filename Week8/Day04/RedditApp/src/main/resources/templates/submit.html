@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit a new post</title>
+</head>
+<body>
+<h1>Submit a new post</h1>
+<form action="/reddit/submit" th:object="${newPosts}" method="POST">
+  <label>Title:</label>
+  <input type="text" th:field="*{title}" name="username" autofocus required minlength="4">
+
+  <label>URL:</label>
+  <input type="text" th:field="*{url}" name="url" id="url" required>
+
+  <label>Current user</label>
+  <input type="hidden" name="user" th:value="${name}">
+  <input type="submit" value=Submit>
+
+</form>
+
+</body>
+</html>

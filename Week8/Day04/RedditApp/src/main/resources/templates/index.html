@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Index Page</title>
+</head>
+<body>
+<header>
+  <nav>
+    <ul>
+      <li> <a th:href="@{'/reddit/submit/?name=' + ${name}}">Submit new post</a></li>
+      <li></li>
+    </ul>
+  </nav>
+  </header>
+
+<h1>Trending posts</h1>
+
+<table>
+  <tr>
+    <th>Actual votes</th>
+    <th>Vote up</th>
+    <th>Vote down</th>
+    <th>Tite</th>
+    <th>Date</th>
+    <th>User</th>
+  </tr>
+  <tbody>
+  <tr th:each="posts : ${posts}" th:object="${posts}">
+    <td> th:text="${posts.numberOfVotes}"></td>
+    <td> <a th:href="@{'/reddit/vote/?vote=up&id=' + ${posts.id}}">+</a></td>
+    <td> <a th:href="@{'/reddit/vote/?vote=down&ide=' + ${posts.id}}">-</a></td>
+    <td> <a th:href="${posts.url}" target="_blank" th:text="${posts.title}"></a></td>
+    <td th:text="${posts.date}"></td>
+    <td th:text="${posts.user}"></td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>

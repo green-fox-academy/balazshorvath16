@@ -13,8 +13,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class PostServiceImpl implements PostsService {
 
-PostRepository postRepository;
-UserService userService;
+private PostRepository postRepository;
+private UserService userService;
 
   @Autowired
   public PostServiceImpl(PostRepository postRepository, UserService userService) {
@@ -29,11 +29,7 @@ UserService userService;
 
   @Override
   public Posts findById(Long id) {
-    Posts posts = new Posts();
-    if (postRepository.findById(id).isPresent()) {
-      posts = postRepository.findById(id).get();
-    }
-    return posts;
+    return postRepository.findById(id).orElse(null);
   }
 
   @Override
@@ -43,23 +39,14 @@ UserService userService;
 
   @Override
   public void countVotes(String vote, long id) {
-  if (vote.equals("up")) {
-    Optional<Posts> optionalPosts = postRepository.findById(id);
-    if (optionalPosts.isPresent()) {
-      Posts a = optionalPosts.get();
-      a.setNumberOfVotes(a.getNumberOfVotes() + 1);
-      postRepository.save(a);
-    } else {
-
-    }
-  } else if (vote.equals("down")) {
-      Optional<Posts> optionalPosts = postRepository.findById(id);
-      if (optionalPosts.isPresent()) {
-        Posts a = optionalPosts.get();
-        a.setNumberOfVotes(a.getNumberOfVotes() - 1);
-        postRepository.save(a);
-    } else {
-      }
+    Posts optionalPosts = findById(id);
+    if (!optionalPosts.equals(null)) {
+      if (vote.equals("up")) {
+        optionalPosts.setNumberOfVotes(optionalPosts.getNumberOfVotes() + 1);
+      } else if (vote.equals("down")) {
+          optionalPosts.setNumberOfVotes(optionalPosts.getNumberOfVotes() - 1);
+     }
+      postRepository.save(optionalPosts);
     }
   }
 

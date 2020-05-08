@@ -3,13 +3,16 @@ package com.greenfoxacademy.redditapp.controllers;
 import com.greenfoxacademy.redditapp.models.Posts;
 import com.greenfoxacademy.redditapp.models.User;
 import com.greenfoxacademy.redditapp.services.PostServiceImpl;
+import com.greenfoxacademy.redditapp.services.PostsService;
+import com.greenfoxacademy.redditapp.services.UserService;
 import com.greenfoxacademy.redditapp.services.UserServiceImpl;
-import java.awt.Stroke;
-import org.hibernate.annotations.GeneratorType;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
@@ -24,7 +27,7 @@ public class MainController {
     this.userService = userService;
   }
 
-  @GetMapping("reddit")
+  @GetMapping("/reddit")
   public String listPosts(Model model, String name) {
     model.addAttribute("name", name);
     model.addAttribute("posts", postService.sortPostsByVote());
@@ -39,21 +42,20 @@ public class MainController {
     return "submit";
   }
 
-  @GetMapping("reddit/submit")
+  @PostMapping("reddit/submit")
   public String submitPost(@RequestParam String title, @RequestParam String url,
       @RequestParam String user, Model model) {
     Posts posts = new Posts(title, url);
     User u = userService.findByName(user);
     if (u != null) {
       posts.setUser(u);
-    } else {
-
     }
+
     postService.addPosts(posts);
     return "redirect:/reddit";
   }
 
-  @GetMapping("reddit/login")
+  @GetMapping("reddit/vote")
   public String vote(@RequestParam String vote, @RequestParam long id) {
     postService.countVotes(vote, id);
     return "redirect:/reddit";
@@ -63,7 +65,8 @@ public class MainController {
     return "login";
   }
 
-  public String userLogin(@RequestParam String name) {
+  @PostMapping("reddit/login")
+public String userLogin(@RequestParam String name) {
     return "redirect:/reddit/?name=" + name;
   }
 }

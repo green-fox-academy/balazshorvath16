@@ -11,10 +11,27 @@
   <nav>
     <ul>
       <li> <a th:href="@{'/reddit/submit/?name=' + ${name}}">Submit new post</a></li>
-      <li></li>
     </ul>
   </nav>
   </header>
+<style>
+
+  li {
+    font-size: 25px;
+    color: aqua;
+  }
+
+  table, tr, th, td {
+    border: 1px solid black;
+  }
+
+  table {
+    border-collapse: collapse;
+    text-align: center;
+    background-color: rgba(7,238,232,0.95);
+
+  }
+</style>
 
 <h1>Trending posts</h1>
 
@@ -28,13 +45,13 @@
     <th>User</th>
   </tr>
   <tbody>
-  <tr th:each="posts : ${posts}" th:object="${posts}">
-    <td> th:text="${posts.numberOfVotes}"></td>
-    <td> <a th:href="@{'/reddit/vote/?vote=up&id=' + ${posts.id}}">+</a></td>
-    <td> <a th:href="@{'/reddit/vote/?vote=down&ide=' + ${posts.id}}">-</a></td>
-    <td> <a th:href="${posts.url}" target="_blank" th:text="${posts.title}"></a></td>
-    <td th:text="${posts.date}"></td>
-    <td th:text="${posts.user}"></td>
+  <tr th:each="post : ${posts}" th:object="${post}">
+    <td th:text="${post.numberOfVotes}"></td>
+    <td> <a th:href="@{'/reddit/vote/?vote=up&id=' + ${post.id}}">+</a></td>
+    <td> <a th:href="@{'/reddit/vote/?vote=down&id=' + ${post.id}}">-</a></td>
+    <td> <a th:href="${post.url}" target="_blank" th:text="${post.title}"></a></td>
+    <td th:text="${post.date}"></td>
+    <td th:text="${post.user != null} ? ${post.user.userName} : 'no user' "></td>
   </tr>
   </tbody>
 </table>
